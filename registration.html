@@ -12,15 +12,13 @@
   <input type="button" value="Submit">
   <input type="reset" value="Reset">
 </form>
-<form>
-   <label for="question">Select gender:</label><br>
-  <input type="radio" id="male" name="gender" value="Male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="Female">
-  <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="Other">
-  <label for="other">Rather not say</label>
-</form>
+Login as
+            <select name="drpLoginType" id="drpLoginType">
+              <option value=""></option>
+              <option value="Male">Admin</option>
+              <option value="Female">Super &nbsp;&nbsp;&nbsp;&nbsp; User</option>
+              <option value="Rather not say">Business Owner</option>
+            </select>
 <form>
   <label for="question">Where do you live?</label><br>
   <input type="radio" id="On campus" name="place" value="On campus">
