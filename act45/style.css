@@ -131,6 +131,6 @@ img.top-image {
 
 ul.body-list{
     list-style-position : inside;
-    list-style-image : url('../images/arrow.png');
+    list-style-image : url('https://github.com/arjhontan/Tan_WebDev_Midterm/blob/master/act45/arrow.png?raw=true');
     line-height : 1.8em;
 }
