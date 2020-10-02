@@ -9,6 +9,9 @@ background-image: linear-gradient(white, pink, black);
  padding: 50px 5% 0px 5%;
  position: relative;
 }
+h1 {
+  text-shadow: 2px 2px red;
+}
 .about-text{
  font-family: calibri;
  width: 50%;
