@@ -3,39 +3,43 @@
   padding: 5;
   box-sizing: border-box;
   font-family: 'Arial'
+    
 }
 
 body {
-  height: 100vh;
-  background-color: #4DD52C
+  height: 90vh;
+  background-color: #E3B114
+    
 }
 .receipt {
   width: 850px;
   height: 770px;
-  background-color: lightGrey;
+  background-color: white;
+color: black;
+  text-shadow: 2px 2px 4px #000000;
 
   position: relative;
   top: 50%;
   left: 50%;
   margin-top: -360px; 
   margin-left: -360px;
-  box-shadow: 14px 14px 22px -18px;
-  padding: 20px
+  box-shadow: 10px 10px 20px -16px;
+  padding: 50px
 }
 
 .name {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 10px;
-  font-size: 1.8em;
+  font-size: 1.5em;
   margin-top: 10px
 }
 
 
 
 .order p {
-  font-size: 20px;
-  color: #aaa;
+  font-size: 15px;
+  color: #000000;
   padding-left: 15px;
   letter-spacing: .10px
 }
@@ -70,6 +74,7 @@ hr {
 .product .info {
   float: left;
   margin-left: 15px
+ 
 }
 
 .product .info h4 {
@@ -80,7 +85,7 @@ hr {
 
 .product .info p {
   font-size: 12px;
-  color: #aaa;
+  color: #000000;
 }
 
 .details > p {
@@ -94,22 +99,14 @@ hr {
 
 .totalprice .sub,
 .totalprice .del {
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .totalprice span {
   float: right;
-  margin-right: 17px
+  margin-right: 10px
 }
 
 .totalprice .tot {
-  font-size: 15px
+  font-size: 20px
 }
-
-footer {
-  font-size: 10px;
-  text-align: center;
-  margin-top: 135px; 
-  color: #aaa
-}
-
