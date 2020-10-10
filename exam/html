@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>HealthTrack.ph/home</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo-container">
+				<img src="./img/logo.svg" alt="logo" />
+				<h4 class="logo">Health Track</h4>
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link" href="#">Home</a></li>
+					<li><a class="nav-link" href="#">COVID-19 Updates</a></li>
+					<li><a class="nav-link" href="#">Live scanning</a></li>
+				</ul>
+			</nav>
+			<div class="settings">
+				<img src="./img/cart.svg" alt="settings" />
+			</div>
+		</header>
+
+		<main>
+      
+			<section class="presentation">
+        <div class="cover">
+					<img src="./img/matebook.png" alt="profile" />
+				</div>
+				<div class="introduction">
+					<div class="intro-text">
+						<h1>Arjhon Philip Tan</h1>
+						<p> • Good Condition
+						</p>
+					</div>
+          <div
+  <h1>Arjhon Philip Tan</h1>
+               </div>
+					<div class="cta">
+            <p> Why Stay Safe and Stay Healthy
+						</p>
+						<button class="cta-add">Protect Ourselves</button>
+						<button class="cta-add">Protect Our Loved Ones</button>
+            <button class="cta-add">Protect Our community</button>
+					</div>
+
+				
+			</section>
+
+			<div class="laptop-select">
+				<img src="./img/arrow-left.svg" alt="" />
+				<img src="./img/dot.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/dot-full.svg" alt="" />
+				<img src="./img/arrow-right.svg" alt="" />
+			</div>
+      <div
+
+           </div>
+
+			<img class="big-circle" src="./img/big-eclipse.svg" alt="" />
+			<img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
+			<img class="small-circle" src="./img/small-eclipse.svg" alt="" />
+		</main>
+	</body>
+</html>
